@@ -1,4 +1,4 @@
-package com.devsuperior.desafiocap01.services.exceptions;
+package com.devsuperior.desafiocapitulo01.services.exceptions;
 
 public class ResourceNotFoundException extends RuntimeException {
 

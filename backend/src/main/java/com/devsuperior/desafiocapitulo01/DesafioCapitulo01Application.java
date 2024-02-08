@@ -1,13 +1,13 @@
-package com.devsuperior.desafiocap01;
+package com.devsuperior.desafiocapitulo01;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DesafioCap01Application {
+public class DesafioCapitulo01Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DesafioCap01Application.class, args);
+		SpringApplication.run(DesafioCapitulo01Application.class, args);
 	}
 
 }

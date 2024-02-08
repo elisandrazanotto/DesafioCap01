@@ -1,7 +1,7 @@
-package com.devsuperior.desafiocap01.controller.exceptions;
+package com.devsuperior.desafiocapitulo01.controller.exceptions;
 
-import com.devsuperior.desafiocap01.services.exceptions.DatabaseException;
-import com.devsuperior.desafiocap01.services.exceptions.ResourceNotFoundException;
+import com.devsuperior.desafiocapitulo01.services.exceptions.DatabaseException;
+import com.devsuperior.desafiocapitulo01.services.exceptions.ResourceNotFoundException;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 
 import java.time.Instant;
 
-import static com.devsuperior.desafiocap01.constants.Constants.DADOS_INVALIDOS;
+import static com.devsuperior.desafiocapitulo01.constants.Constants.DADOS_INVALIDOS;
 
 @ControllerAdvice
 public class ControllerExceptionHandler {

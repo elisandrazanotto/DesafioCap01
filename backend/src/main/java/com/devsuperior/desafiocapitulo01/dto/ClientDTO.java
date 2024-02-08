@@ -1,6 +1,6 @@
-package com.devsuperior.desafiocap01.dto;
+package com.devsuperior.desafiocapitulo01.dto;
 
-import com.devsuperior.desafiocap01.entities.Client;
+import com.devsuperior.desafiocapitulo01.entities.Client;
 import jakarta.validation.constraints.*;
 
 import java.time.LocalDate;

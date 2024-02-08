@@ -1,4 +1,4 @@
-package com.devsuperior.desafiocap01.entities;
+package com.devsuperior.desafiocapitulo01.entities;
 
 import jakarta.persistence.*;
 
