@@ -1,4 +1,4 @@
-package com.devsuperior.desafiocap01.constants;
+package com.devsuperior.desafiocapitulo01.constants;
 
 public class Constants {
 

@@ -1,7 +1,7 @@
-package com.devsuperior.desafiocap01.controller;
+package com.devsuperior.desafiocapitulo01.controller;
 
-import com.devsuperior.desafiocap01.dto.ClientDTO;
-import com.devsuperior.desafiocap01.services.ClientService;
+import com.devsuperior.desafiocapitulo01.dto.ClientDTO;
+import com.devsuperior.desafiocapitulo01.services.ClientService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

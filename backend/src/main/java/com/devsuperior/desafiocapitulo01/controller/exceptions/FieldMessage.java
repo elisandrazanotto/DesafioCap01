@@ -1,4 +1,4 @@
-package com.devsuperior.desafiocap01.controller.exceptions;
+package com.devsuperior.desafiocapitulo01.controller.exceptions;
 
 public class FieldMessage {
 

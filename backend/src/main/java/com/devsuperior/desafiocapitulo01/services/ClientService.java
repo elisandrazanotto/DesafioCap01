@@ -1,10 +1,10 @@
-package com.devsuperior.desafiocap01.services;
+package com.devsuperior.desafiocapitulo01.services;
 
-import com.devsuperior.desafiocap01.dto.ClientDTO;
-import com.devsuperior.desafiocap01.entities.Client;
-import com.devsuperior.desafiocap01.repositories.ClientRepository;
-import com.devsuperior.desafiocap01.services.exceptions.DatabaseException;
-import com.devsuperior.desafiocap01.services.exceptions.ResourceNotFoundException;
+import com.devsuperior.desafiocapitulo01.dto.ClientDTO;
+import com.devsuperior.desafiocapitulo01.entities.Client;
+import com.devsuperior.desafiocapitulo01.repositories.ClientRepository;
+import com.devsuperior.desafiocapitulo01.services.exceptions.DatabaseException;
+import com.devsuperior.desafiocapitulo01.services.exceptions.ResourceNotFoundException;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
@@ -13,8 +13,8 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import static com.devsuperior.desafiocap01.constants.Constants.FALHA_INTEGRIDADE_REFERENCIAL;
-import static com.devsuperior.desafiocap01.constants.Constants.RECURSO_NAO_ENCONTRADO;
+import static com.devsuperior.desafiocapitulo01.constants.Constants.FALHA_INTEGRIDADE_REFERENCIAL;
+import static com.devsuperior.desafiocapitulo01.constants.Constants.RECURSO_NAO_ENCONTRADO;
 
 @Service
 public class ClientService {
